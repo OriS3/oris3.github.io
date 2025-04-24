@@ -82,6 +82,14 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+.young1 {
+  width: 400px;
+}
+
+.young2 {
+  width: 300px;
+}
+
 .header__menu nav > ul li a, .banner__content > span {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -459,6 +467,27 @@ ul li a.linkedin {
 ul li a.twitter {
   background: #55acee !important;
   color: #fff !important;
+}
+
+/* .partner {
+  display: flex;
+} */
+
+.partner-logo {
+  height: 90px;
+  /* 或你想统一的高度 */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  /* 水平居中 */
+}
+
+.bg1 {
+  width: 400px;
+}
+
+.shopping1 {
+width: 500px;
 }
 
 input,
