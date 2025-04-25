@@ -231,67 +231,67 @@ $(function () {
         ]
     });
 
-    $('.sponsor__slider').slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
-        slidesToShow: 6,
-        slidesToScroll: 6,
-        responsive: [
-            {
-                breakpoint: 1600,
-                settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 5,
-                }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                }
-            },
-            {
-                breakpoint: 450,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                }
-            }
-        ]
-    });
+    // $('.sponsor__slider').slick({
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     slidesToShow: 6,
+    //     slidesToScroll: 6,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1600,
+    //             settings: {
+    //                 slidesToShow: 5,
+    //                 slidesToScroll: 5,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 4,
+    //                 slidesToScroll: 4,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 3,
+    //                 slidesToScroll: 3,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 450,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2,
+    //             }
+    //         }
+    //     ]
+    // });
 
 
     // case slider start here
-    $('.service2__slider').slick({
-        autoplay: true,
-        autoplaySpeed: 5000,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            },
-        ]
-    });
+    // $('.service2__slider').slick({
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 2
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //             }
+    //         },
+    //     ]
+    // });
 
 
     var $grid = $(".casegallery__grid").isotope({
