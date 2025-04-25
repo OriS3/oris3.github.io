@@ -1234,6 +1234,14 @@ ul li a.twitter {
   /* 水平居中 */
 }
 
+@media (min-width: 1200px) {
+  .footer_contact {
+    margin-left: 50px;
+  }
+
+}
+
+
 .bg1 {
   width: 400px;
   position: relative;
